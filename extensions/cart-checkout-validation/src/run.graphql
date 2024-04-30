@@ -1,0 +1,16 @@
+query RunInput {
+  cart {
+    buyerIdentity {
+		email
+		phone
+	}
+	deliveryGroups {
+		deliveryAddress {
+			address1
+			address2
+			city
+			phone
+		}
+	}
+  }
+}

@@ -1,0 +1,25 @@
+query RunInput {
+	cart {
+		buyerIdentity {
+			customer {
+				hasTags(tags: ["NET30"]) {
+					hasTag
+					tag
+				}
+			}
+		}
+		lines {
+			merchandise {
+				... on ProductVariant {
+					product {
+						vendor
+					}
+				}
+			}
+		}
+	}
+	paymentMethods {
+		id
+		name
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"cart": {
+	  "lines": [
+		{
+		  "id": "gid://shopify/CartLine/d7b296c2-eba2-459c-bb0b-41ee3ff71df2",
+		  "quantity": 1,
+		  "merchandise": {
+			"__typename": "ProductVariant",
+			"id": "gid://shopify/ProductVariant/41919375573132",
+			"title": null,
+			"product": {
+			  "productType": "",
+			  "title": "The Collection Snowboard: Liquid"
+			}
+		  }
+		},
+		{
+		  "id": "gid://shopify/CartLine/c5ec10d6-b7eb-4ff6-a48f-09d1a33e8040",
+		  "quantity": 1,
+		  "merchandise": {
+			"__typename": "ProductVariant",
+			"id": "gid://shopify/ProductVariant/41919375016076",
+			"title": "Powder",
+			"product": {
+			  "productType": "snowboard",
+			  "title": "The Complete Snowboard"
+			}
+		  }
+		}
+	  ]
+	}
+  }

@@ -1,0 +1,18 @@
+query RunInput {
+	cart {
+		buyerIdentity {
+			customer {
+				hasTags(tags: ["NET30"]) {
+					hasTag
+					tag
+				}
+			}
+		}
+		deliveryGroups {
+			deliveryOptions {
+				handle
+				title
+			}
+		}
+	}
+}
